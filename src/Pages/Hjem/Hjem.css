@@ -1,0 +1,32 @@
+.PicsumImages{
+    width: 100%;
+    height: 100%;
+    background-color: #54b3d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}    
+
+img{
+    margin: 2ch;
+    border: solid black 2px;
+}
+
+h1{
+    text-align: center;
+    margin: 1em 0%;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+  }
